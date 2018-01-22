@@ -1,2 +1,8 @@
-
+# Django related files
 *.pyc
+*.DS_Store
+build/
+
+*.rdb
+staticfiles/
+media/
