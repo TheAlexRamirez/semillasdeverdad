@@ -132,3 +132,28 @@
     .b-b {
         border-bottom: 1px solid #D8E1E5;
     }
+
+    /********************
+    * SVG STYLES
+    ********************/
+
+    .hoverable {
+        stroke-dasharray: 700;
+        stroke-dashoffset: 700;
+        stroke-linecap: butt;
+        stroke-width:0;
+        stroke:#6f7055;
+        fill:#b9b9b9;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+
+    .hoverable:hover {
+        fill: #d4d6a1;
+        stroke-dashoffset: 0;
+        stroke-dasharray: 700;
+        stroke-width:3;
+    }
