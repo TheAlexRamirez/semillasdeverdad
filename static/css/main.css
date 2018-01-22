@@ -1,0 +1,134 @@
+    /********************
+    * GENERAL STYLES
+    ********************/
+
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+        background: #ffffff;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #2b2b2b;
+    }
+
+    .header {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+    }
+
+    .header h1{
+        font-size: 3.5rem;
+        letter-spacing: 3px;
+        /*border-bottom-style: dotted;
+        border-bottom-width: thin;*/
+    }
+
+    .bg-1 {
+        background-color: rgb(221, 221, 221);
+    }
+
+
+    /********************
+    * TEXT STYLES
+    ********************/
+
+    small {
+        font-size: 0.7rem;
+    }
+
+    .remark {
+        font-style: italic;
+        background-image: url('../img/pink dust.png');
+        padding-right: 1px;
+        padding-left: 1px;
+        padding-bottom: 15px;
+        color: #fff;
+    }
+
+    .dotted {
+        border-bottom-style: dotted;
+        border-bottom-width: 0.5px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+
+    /********************
+    * IMAGE STYLES
+    ********************/
+
+    .hover-color {
+        max-height: 40px;
+        filter: gray; /* IE5+ */
+        -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+        -webkit-transition: all .2s ease-in-out;
+    }
+
+    .hover-color:hover {
+        filter: none;
+          -webkit-filter: grayscale(0);
+          -webkit-transform: scale(1.01);
+    }
+
+    /*********************************************************************************/
+    /* Footer                                                                        */
+    /*********************************************************************************/
+
+    .site-footer {
+    	font-size: .9em;
+    }
+
+    .site-footer h4 {
+    	margin-bottom: 15px;
+    }
+
+    .site-footer [class*='col-'] + [class*='col-'] {
+    	margin-top: 30px;
+    }
+
+    .site-footer .footer-bottom {
+    	text-align: center;
+    }
+
+    .site-footer .logo {
+    	max-width: 48px;
+    }
+
+    @media (min-width: 768px) {
+    	.site-footer .footer-bottom {
+    		text-align: left;
+    	}
+    	.site-footer .footer-links {
+    		text-align: right;
+    	}
+    	.site-footer [class*='col-'] + [class*='col-'] {
+    		margin-top: 0;
+    	}
+    }
+
+    /********************
+    * BORDER STYLES
+    ********************/
+
+    .b-l {
+        border-left: 1px solid #D8E1E5;
+    }
+
+    .b-r {
+        border-right: 1px solid #D8E1E5;
+    }
+
+    .b-t {
+        border-top: 1px solid #D8E1E5;
+    }
+
+    .b-b {
+        border-bottom: 1px solid #D8E1E5;
+    }
